@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:simple_list_app/Screens/DetailScreen.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
@@ -12,8 +13,12 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("A Simple"),
-        backgroundColor: Colors.white.withOpacity(300),
+        title: Text(
+          "A Simple",
+          style: TextStyle(color: Colors.black),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.lightBlue,
         elevation: 0,
       ),
       body: Container(
@@ -28,6 +33,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -38,6 +47,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -48,6 +61,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -58,6 +75,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -68,6 +89,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -78,6 +103,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -88,6 +117,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -98,6 +131,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -108,6 +145,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -118,6 +159,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -128,6 +173,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -138,6 +187,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
             ListTile(
               leading: Icon(Icons.phone),
@@ -148,6 +201,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   fontWeight: FontWeight.w600,
                 ),
               ),
+              onTap: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => DetailScreen()));
+              },
             ),
           ],
         ),
